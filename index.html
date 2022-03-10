@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework_8a</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="form">
+			<form action="#" method="get">
+			<p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+			<div class="article">
+				<div class="article_tittle">Название статьи:</div>
+				<div class="article_input_body"><input type="text" name="article" class="article_input"></div>
+			</div>
+			<div class="category_tittle">Рубрика:</div>
+			<div class="category">
+				<select class="category_list" name="category">
+					<option value="1">Програмирование</option>
+					<option value="2">Маркетинг</option>
+					<option value="3">Аналитика</option>
+					<option value="4">Бизнес и управление</option>
+					<option value="5">МБА</option>
+					<option value="6">Soft skills</option>
+					<option value="7">Дизайн</option>
+					<option value="8">Безработица</option>
+				</select>
+			</div>
+			<div class="publication">
+				<div class="publication_tittle">Публикация:</div>
+					<div class="publication_input"><input class="piblication_answer" type="radio" name="piblication_answer" value="1"> на сайте</div>
+					<div class="publication_input"><input class="piblication_answer" type="radio" name="piblication_answer" checked="" value="2"> в журнале</div>
+					<div class="publication_input"><input class="piblication_answer" type="radio" name="piblication_answer" value="3"> на сайте и в жупнале</div>
+			</div>
+			<div class="comment">Разрешить коментарии:</div><input type="checkbox" name="comment">
+			<div class="article_text">Текст статьи:</div>
+			<textarea class="article_textarea" name="mytext"></textarea>
+			<input type="submit" value="Опубликовать">
+			</form>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
